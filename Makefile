@@ -31,8 +31,8 @@ pdf:
 	--template="$(STYLEDIR)/template.tex" \
 	--bibliography="$(BIBFILE)" 2>pandoc.log \
 	--csl="$(STYLEDIR)/ref_format.csl" \
-	--highlight-style pygments \
 	-V fontsize=11pt \
+	-V colorlinks \
 	-V mainfont="Palatino" \
 	-V papersize=a4paper \
 	-V documentclass:report \
