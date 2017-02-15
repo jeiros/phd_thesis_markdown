@@ -60,4 +60,4 @@ target/
 node_modules/
 
 #the pdf
-output/thesis.pdf
+output/*
